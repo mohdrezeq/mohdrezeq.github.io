@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dr. Moh'd Rezeq — Physics · Nanotechnology · Innovation</title>
+
+<meta name="description"
+content="Official academic portfolio of Dr. Moh'd Rezeq, Associate Professor of Physics at Khalifa University, featuring research, innovation, patents, publications and academic achievements.">
+
+<meta name="author" content="Dr. Moh'd Rezeq">
+
+<!-- GOOGLE STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "Dr. Moh'd Rezeq",
+  "url": "https://mohdrezeq.github.io/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Dr. Moh'd Rezeq",
+    "jobTitle": "Associate Professor of Physics",
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Khalifa University",
+      "url": "https://www.ku.ac.ae/"
+    },
+    "sameAs": [
+      "https://orcid.org/0000-0001-9616-2511",
+      "https://www.ku.ac.ae/college-people/mohammad-rezeq",
+      "https://khazna.ku.ac.ae/en/persons/mohd-rezeq-7/",
+      "https://www.researchgate.net/profile/Mohd-Rezeq"
+    ]
+  }
+}
+</script>
+
+
+<style>
+
+/* =========================================================
+   ROOT
+========================================================= */
+
+:root {
+    --ink: #171716;
+    --deep: #101111;
+    --stone: #e9e4da;
+    --sand: #d8d0c1;
+    --cream: #f6f3ed;
+    --white: #ffffff;
+    --muted: #77736c;
+    --line: rgba(23,23,22,.13);
+    --gold: #a98a4b;
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--cream);
+    color: var(--ink);
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+nav {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 100;
+
+    padding: 24px 6vw;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(246,243,237,.82);
+
+    backdrop-filter: blur(15px);
+
+    border-bottom: 1px solid var(--line);
+}
+
+.nav-name {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 19px;
+
+    letter-spacing: -.3px;
+}
+
+.nav-links {
+    display: flex;
+
+    gap: 28px;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.8px;
+}
+
+.nav-links a {
+    opacity: .65;
+
+    transition: opacity .25s ease;
+}
+
+.nav-links a:hover {
+    opacity: 1;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    min-height: 100vh;
+
+    padding: 150px 7vw 90px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.hero-number {
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    color: var(--muted);
+
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-weight: 400;
+
+    font-size: clamp(70px, 11vw, 165px);
+
+    line-height: .88;
+
+    letter-spacing: -7px;
+
+    max-width: 1200px;
+}
+
+.hero h1 span {
+    display: block;
+
+    color: #8d877d;
+}
+
+.hero-bottom {
+    margin-top: 70px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    max-width: 1100px;
+}
+
+.hero-role {
+    font-size: 13px;
+
+    max-width: 380px;
+
+    color: #5f5b54;
+}
+
+.hero-scroll {
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: var(--muted);
+}
+
+
+/* =========================================================
+   PORTRAIT
+========================================================= */
+
+.portrait-section {
+    background: var(--deep);
+
+    color: white;
+
+    padding: 130px 7vw;
+
+    display: grid;
+
+    grid-template-columns: .6fr 1.4fr;
+
+    gap: 75px;
+
+    align-items: end;
+}
+
+.portrait-intro {
+    padding-bottom: 45px;
+}
+
+.section-number {
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    color: #85837d;
+
+    margin-bottom: 28px;
+}
+
+.portrait-intro h2 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: clamp(45px, 5vw, 78px);
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    letter-spacing: -3px;
+}
+
+.portrait-frame {
+    position: relative;
+
+    overflow: hidden;
+
+    background: #202120;
+}
+
+.portrait-frame img {
+    width: 100%;
+
+    height: 650px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    transition: transform 1s ease;
+}
+
+.portrait-frame:hover img {
+    transform: scale(1.02);
+}
+
+.portrait-caption {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    padding: 55px 32px 28px;
+
+    background:
+        linear-gradient(
+            transparent,
+            rgba(0,0,0,.9)
+        );
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+}
+
+.portrait-caption strong {
+    display: block;
+
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+
+    font-weight: 400;
+}
+
+.portrait-caption span {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.7px;
+
+    color: #bbb8b0;
+}
+
+.portrait-location {
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: #bbb8b0;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+========================================================= */
+
+.section {
+    padding: 120px 7vw;
+}
+
+.section-header {
+    display: grid;
+
+    grid-template-columns: .5fr 1.5fr;
+
+    gap: 60px;
+
+    margin-bottom: 70px;
+}
+
+.section-title {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: clamp(48px, 6vw, 85px);
+
+    font-weight: 400;
+
+    line-height: .95;
+
+    letter-spacing: -3px;
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.about {
+    background: var(--cream);
+}
+
+.about-text {
+    max-width: 760px;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 24px;
+
+    line-height: 1.5;
+
+    color: #34322e;
+}
+
+.profile-details {
+    margin-top: 70px;
+
+    border-top: 1px solid var(--line);
+}
+
+.profile-row {
+    padding: 21px 0;
+
+    border-bottom: 1px solid var(--line);
+
+    display: grid;
+
+    grid-template-columns: 180px 1fr;
+
+    gap: 30px;
+}
+
+.profile-row span:first-child {
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   RESEARCH
+========================================================= */
+
+.research {
+    background: var(--stone);
+}
+
+.research-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    border-top: 1px solid var(--line);
+
+    border-left: 1px solid var(--line);
+}
+
+.research-card {
+    min-height: 250px;
+
+    padding: 35px;
+
+    border-right: 1px solid var(--line);
+
+    border-bottom: 1px solid var(--line);
+
+    transition:
+        background .3s ease,
+        transform .3s ease;
+}
+
+.research-card:hover {
+    background: rgba(255,255,255,.45);
+
+    transform: translateY(-3px);
+}
+
+.research-number {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+
+    color: var(--muted);
+}
+
+.research-card h3 {
+    font-family: Georgia, serif;
+
+    font-size: 28px;
+
+    font-weight: 400;
+
+    margin: 55px 0 12px;
+}
+
+.research-card p {
+    color: #666158;
+
+    font-size: 13px;
+
+    max-width: 300px;
+}
+
+
+/* =========================================================
+   IMPACT
+========================================================= */
+
+.impact {
+    background: var(--deep);
+
+    color: white;
+}
+
+.impact-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+
+.impact-item {
+    padding: 55px 30px;
+
+    border-right: 1px solid rgba(255,255,255,.15);
+}
+
+.impact-number {
+    font-family: Georgia, serif;
+
+    font-size: 65px;
+
+    font-weight: 400;
+
+    line-height: 1;
+}
+
+.impact-label {
+    margin-top: 15px;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: #aaa79f;
+}
+
+
+/* =========================================================
+   UAE CONTRIBUTION
+========================================================= */
+
+.uae {
+    background: var(--cream);
+}
+
+.uae-content {
+    display: grid;
+
+    grid-template-columns: .7fr 1.3fr;
+
+    gap: 90px;
+}
+
+.uae-statement {
+    font-family: Georgia, serif;
+
+    font-size: 38px;
+
+    line-height: 1.15;
+}
+
+.uae-text {
+    font-size: 16px;
+
+    color: #5e5a53;
+
+    max-width: 650px;
+}
+
+.uae-text p + p {
+    margin-top: 25px;
+}
+
+
+/* =========================================================
+   PATENTS
+========================================================= */
+
+.patents {
+    background: #e2ddd3;
+}
+
+.patent-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+
+    background: var(--line);
+}
+
+.patent-card {
+    background: var(--cream);
+
+    padding: 50px;
+
+    min-height: 310px;
+}
+
+.patent-number {
+    color: var(--gold);
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+.patent-card h3 {
+    font-family: Georgia, serif;
+
+    font-size: 31px;
+
+    font-weight: 400;
+
+    line-height: 1.15;
+
+    margin-top: 55px;
+}
+
+.patent-card p {
+    margin-top: 18px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   PUBLICATIONS
+========================================================= */
+
+.publications {
+    background: var(--cream);
+}
+
+.paper {
+    display: grid;
+
+    grid-template-columns: 70px 1fr auto;
+
+    gap: 35px;
+
+    align-items: center;
+
+    padding: 30px 0;
+
+    border-top: 1px solid var(--line);
+}
+
+.paper:last-child {
+    border-bottom: 1px solid var(--line);
+}
+
+.paper-number {
+    font-size: 11px;
+
+    color: var(--muted);
+}
+
+.paper-title {
+    font-family: Georgia, serif;
+
+    font-size: 21px;
+
+    line-height: 1.3;
+}
+
+.paper-doi {
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+
+    color: var(--gold);
+}
+
+
+/* =========================================================
+   AWARDS
+========================================================= */
+
+.awards {
+    background: var(--stone);
+}
+
+.award-box {
+    border-top: 1px solid var(--line);
+
+    border-bottom: 1px solid var(--line);
+
+    padding: 55px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.award-box h3 {
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+    font-weight: 400;
+}
+
+.award-box span {
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: var(--muted);
+}
+
+
+/* =========================================================
+   PROFILES
+========================================================= */
+
+.profiles {
+    background: var(--deep);
+
+    color: white;
+}
+
+.profile-links {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    border-top: 1px solid rgba(255,255,255,.15);
+
+    border-left: 1px solid rgba(255,255,255,.15);
+}
+
+.profile-link {
+    padding: 32px;
+
+    min-height: 130px;
+
+    border-right: 1px solid rgba(255,255,255,.15);
+
+    border-bottom: 1px solid rgba(255,255,255,.15);
+
+    transition: background .3s ease;
+}
+
+.profile-link:hover {
+    background: rgba(255,255,255,.06);
+}
+
+.profile-link small {
+    color: #888780;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+.profile-link strong {
+    display: block;
+
+    margin-top: 18px;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact {
+    background: var(--cream);
+
+    text-align: center;
+
+    padding: 150px 7vw;
+}
+
+.contact h2 {
+    font-family: Georgia, serif;
+
+    font-size: clamp(55px, 8vw, 110px);
+
+    font-weight: 400;
+
+    line-height: .9;
+
+    letter-spacing: -5px;
+}
+
+.contact p {
+    max-width: 550px;
+
+    margin: 35px auto 0;
+
+    color: var(--muted);
+}
+
+.contact-button {
+    display: inline-block;
+
+    margin-top: 45px;
+
+    padding: 16px 28px;
+
+    border: 1px solid var(--ink);
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    transition:
+        background .25s ease,
+        color .25s ease;
+}
+
+.contact-button:hover {
+    background: var(--ink);
+
+    color: white;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: var(--deep);
+
+    color: #888780;
+
+    padding: 30px 7vw;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.5px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:850px) {
+
+    nav {
+        padding: 18px 6vw;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        min-height: 90vh;
+
+        padding-top: 130px;
+    }
+
+    .hero h1 {
+        font-size: 18vw;
+
+        letter-spacing: -4px;
+    }
+
+    .hero-bottom {
+        display: block;
+
+        margin-top: 50px;
+    }
+
+    .hero-scroll {
+        margin-top: 30px;
+    }
+
+    .portrait-section {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+
+        padding: 90px 7vw;
+    }
+
+    .portrait-frame img {
+        height: 500px;
+    }
+
+    .portrait-caption {
+        display: block;
+    }
+
+    .portrait-location {
+        margin-top: 15px;
+    }
+
+    .section {
+        padding: 90px 7vw;
+    }
+
+    .section-header {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+        margin-bottom: 50px;
+    }
+
+    .about-text {
+        font-size: 20px;
+    }
+
+    .profile-row {
+        grid-template-columns: 1fr;
+
+        gap: 7px;
+    }
+
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .impact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .impact-item {
+        border-bottom: 1px solid rgba(255,255,255,.15);
+    }
+
+    .uae-content {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .uae-statement {
+        font-size: 32px;
+    }
+
+    .patent-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .paper {
+        grid-template-columns: 35px 1fr;
+
+        gap: 18px;
+    }
+
+    .paper-doi {
+        grid-column: 2;
+    }
+
+    .profile-links {
+        grid-template-columns: 1fr;
+    }
+
+    .award-box {
+        display: block;
+    }
+
+    .award-box span {
+        display: block;
+
+        margin-top: 15px;
+    }
+
+    .contact h2 {
+        letter-spacing: -3px;
+    }
+
+    footer {
+        display: block;
+
+        line-height: 2;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<nav>
+
+    <a href="#" class="nav-name">
+        Dr. Moh'd Rezeq
+    </a>
+
+    <div class="nav-links">
+
+        <a href="#about">About</a>
+
+        <a href="#research">Research</a>
+
+        <a href="#patents">Patents</a>
+
+        <a href="#publications">Publications</a>
+
+        <a href="#profiles">Profiles</a>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<header class="hero">
+
+    <div class="hero-number">
+        Physics · Nanotechnology · Innovation
+    </div>
+
+    <h1>
+        Dr. Moh'd
+        <span>Rezeq</span>
+    </h1>
+
+    <div class="hero-bottom">
+
+        <p class="hero-role">
+            Associate Professor of Physics at Khalifa University,
+            researcher, inventor and educator working at the
+            intersection of physics, nanotechnology and emerging
+            technologies.
+        </p>
+
+        <div class="hero-scroll">
+            Scroll to explore ↓
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     PORTRAIT
+===================================================== -->
+
+<section class="portrait-section">
+
+    <div class="portrait-intro">
+
+        <div class="section-number">
+            00 — Portrait
+        </div>
+
+        <h2>
+            Researcher.<br>
+            Inventor.<br>
+            Educator.
+        </h2>
+
+    </div>
+
+
+    <div class="portrait-frame">
+
+        <img
+            src="https://www.ku.ac.ae/wp-content/uploads/2026/07/Dr_Rezeq_Sensor_lab_photo-768x432.jpeg"
+            alt="Dr. Moh'd Rezeq in his research laboratory"
+        >
+
+        <div class="portrait-caption">
+
+            <div>
+
+                <strong>
+                    Dr. Moh'd Rezeq
+                </strong>
+
+                <span>
+                    Associate Professor of Physics
+                </span>
+
+            </div>
+
+            <div class="portrait-location">
+                Abu Dhabi · United Arab Emirates
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="section about" id="about">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            01 — About
+        </div>
+
+        <h2 class="section-title">
+            Science with<br>
+            purpose.
+        </h2>
+
+    </div>
+
+
+    <p class="about-text">
+        Dr. Moh'd Rezeq is an Associate Professor of Physics at
+        Khalifa University whose academic career combines
+        fundamental physics, nanotechnology, technological
+        development and research-driven innovation.
+    </p>
+
+
+    <div class="profile-details">
+
+        <div class="profile-row">
+
+            <span>Position</span>
+
+            <span>
+                Associate Professor of Physics
+            </span>
+
+        </div>
+
+
+        <div class="profile-row">
+
+            <span>Institution</span>
+
+            <span>
+                Khalifa University
+            </span>
+
+        </div>
+
+
+        <div class="profile-row">
+
+            <span>Location</span>
+
+            <span>
+                Abu Dhabi, United Arab Emirates
+            </span>
+
+        </div>
+
+
+        <div class="profile-row">
+
+            <span>Research</span>
+
+            <span>
+                Nanotechnology · Physics · Advanced Materials · Energy
+            </span>
+
+        </div>
+
+
+        <div class="profile-row">
+
+            <span>ORCID</span>
+
+            <span>
+                0000-0001-9616-2511
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     RESEARCH
+===================================================== -->
+
+<section class="section research" id="research">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            02 — Research
+        </div>
+
+        <h2 class="section-title">
+            Exploring the<br>
+            very small.
+        </h2>
+
+    </div>
+
+
+    <div class="research-grid">
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                01
+            </div>
+
+            <h3>
+                Nanofabrication
+            </h3>
+
+            <p>
+                Advanced nanoscale fabrication and characterization
+                for next-generation scientific and technological
+                applications.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                02
+            </div>
+
+            <h3>
+                Nanoelectronics
+            </h3>
+
+            <p>
+                Research into nanoscale electronic systems,
+                devices and emerging architectures.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                03
+            </div>
+
+            <h3>
+                Advanced Materials
+            </h3>
+
+            <p>
+                Investigation of advanced materials and their
+                potential applications in emerging technologies.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                04
+            </div>
+
+            <h3>
+                Energy Technologies
+            </h3>
+
+            <p>
+                Research addressing future energy storage and
+                high-performance energy-related technologies.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                05
+            </div>
+
+            <h3>
+                Quantum Devices
+            </h3>
+
+            <p>
+                Experimental investigation of nanoscale and
+                quantum electronic phenomena.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <div class="research-number">
+                06
+            </div>
+
+            <h3>
+                Nanosensors
+            </h3>
+
+            <p>
+                Development and investigation of nanoscale sensing
+                technologies and advanced sensor systems.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     IMPACT
+===================================================== -->
+
+<section class="section impact">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            03 — Impact
+        </div>
+
+        <h2 class="section-title">
+            From research<br>
+            to innovation.
+        </h2>
+
+    </div>
+
+
+    <div class="impact-grid">
+
+
+        <div class="impact-item">
+
+            <div class="impact-number">
+                80+
+            </div>
+
+            <div class="impact-label">
+                Peer-reviewed papers
+            </div>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <div class="impact-number">
+                5
+            </div>
+
+            <div class="impact-label">
+                U.S. patents
+            </div>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <div class="impact-number">
+                &lt;1
+            </div>
+
+            <div class="impact-label">
+                Nanometre research capability
+            </div>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <div class="impact-number">
+                UAE
+            </div>
+
+            <div class="impact-label">
+                Research & innovation
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     UAE CONTRIBUTION
+===================================================== -->
+
+<section class="section uae">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            04 — UAE Impact
+        </div>
+
+        <h2 class="section-title">
+            Building knowledge<br>
+            in the UAE.
+        </h2>
+
+    </div>
+
+
+    <div class="uae-content">
+
+        <div class="uae-statement">
+
+            Advancing research,
+            innovation and
+            scientific capability.
+
+        </div>
+
+
+        <div class="uae-text">
+
+            <p>
+                Through research and education at Khalifa University,
+                Dr. Rezeq contributes to the development of advanced
+                scientific and technological capabilities in the
+                United Arab Emirates.
+            </p>
+
+            <p>
+                His work spans nanotechnology, nanoelectronics,
+                advanced materials, energy-related technologies
+                and nanoscale sensing, connecting fundamental
+                scientific research with potential technological
+                applications.
+            </p>
+
+            <p>
+                His academic activities also contribute to the
+                development of students and researchers, helping
+                strengthen the UAE's growing research and innovation
+                ecosystem.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PATENTS
+===================================================== -->
+
+<section class="section patents" id="patents">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            05 — Patents
+        </div>
+
+        <h2 class="section-title">
+            Turning ideas<br>
+            into inventions.
+        </h2>
+
+    </div>
+
+
+    <div class="patent-grid">
+
+
+        <div class="patent-card">
+
+            <div class="patent-number">
+                U.S. Patent · 8,563,966
+            </div>
+
+            <h3>
+                Nano Tunneling Field Effect Transistor
+            </h3>
+
+            <p>
+                A patented technology involving nanoscale
+                tunneling field-effect transistor architecture.
+            </p>
+
+        </div>
+
+
+        <div class="patent-card">
+
+            <div class="patent-number">
+                U.S. Patent · 8,460,049
+            </div>
+
+            <h3>
+                Fabrication of a Super Nano Ion-Electron Source
+            </h3>
+
+            <p>
+                A patented nanoscale technology for the fabrication
+                of advanced ion-electron sources.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PUBLICATIONS
+===================================================== -->
+
+<section class="section publications" id="publications">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            06 — Selected Research
+        </div>
+
+        <h2 class="section-title">
+            Published<br>
+            research.
+        </h2>
+
+    </div>
+
+
+    <div class="papers">
+
+
+        <div class="paper">
+
+            <div class="paper-number">
+                01
+            </div>
+
+            <div class="paper-title">
+                Physical probing of quantum energy levels
+                in a single indium arsenide (InAs) quantum dot
+            </div>
+
+            <a
+                class="paper-doi"
+                href="https://doi.org/10.1039/D3NA00638G"
+                target="_blank"
+            >
+                DOI ↗
+            </a>
+
+        </div>
+
+
+        <div class="paper">
+
+            <div class="paper-number">
+                02
+            </div>
+
+            <div class="paper-title">
+                Direct detection of electronic states for
+                individual indium arsenide quantum dots
+            </div>
+
+            <a
+                class="paper-doi"
+                href="https://doi.org/10.1016/j.apsusc.2022.153046"
+                target="_blank"
+            >
+                DOI ↗
+            </a>
+
+        </div>
+
+
+        <div class="paper">
+
+            <div class="paper-number">
+                03
+            </div>
+
+            <div class="paper-title">
+                Charging and discharging characteristics of
+                a single gold nanoparticle embedded in Al₂O₃
+                thin films
+            </div>
+
+            <a
+                class="paper-doi"
+                href="https://doi.org/10.1063/5.0004000"
+                target="_blank"
+            >
+                DOI ↗
+            </a>
+
+        </div>
+
+
+        <div class="paper">
+
+            <div class="paper-number">
+                04
+            </div>
+
+            <div class="paper-title">
+                Nanotips with a single atom end as ideal
+                sources of electron and ion beams
+            </div>
+
+            <a
+                class="paper-doi"
+                href="https://doi.org/10.1016/j.mee.2012.02.014"
+                target="_blank"
+            >
+                DOI ↗
+            </a>
+
+        </div>
+
+
+        <div class="paper">
+
+            <div class="paper-number">
+                05
+            </div>
+
+            <div class="paper-title">
+                Gold Nanoparticles Monolayer Based
+                Field-Effect Molecular Sensors
+            </div>
+
+            <a
+                class="paper-doi"
+                href="https://doi.org/10.1002/aelm.202400363"
+                target="_blank"
+            >
+                DOI ↗
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     AWARDS
+===================================================== -->
+
+<section class="section awards">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            07 — Recognition
+        </div>
+
+        <h2 class="section-title">
+            Academic<br>
+            excellence.
+        </h2>
+
+    </div>
+
+
+    <div class="award-box">
+
+        <h3>
+            KU Excellence in Research Award
+        </h3>
+
+        <span>
+            Khalifa University
+        </span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROFILES
+===================================================== -->
+
+<section class="section profiles" id="profiles">
+
+    <div class="section-header">
+
+        <div class="section-number">
+            08 — Academic Profiles
+        </div>
+
+        <h2 class="section-title">
+            Explore the<br>
+            research record.
+        </h2>
+
+    </div>
+
+
+    <div class="profile-links">
+
+
+        <a
+            class="profile-link"
+            href="https://www.ku.ac.ae/college-people/mohammad-rezeq"
+            target="_blank"
+        >
+
+            <small>
+                Institution
+            </small>
+
+            <strong>
+                Khalifa University ↗
+            </strong>
+
+        </a>
+
+
+        <a
+            class="profile-link"
+            href="https://orcid.org/0000-0001-9616-2511"
+            target="_blank"
+        >
+
+            <small>
+                Research Identifier
+            </small>
+
+            <strong>
+                ORCID ↗
+            </strong>
+
+        </a>
+
+
+        <a
+            class="profile-link"
+            href="https://khazna.ku.ac.ae/en/persons/mohd-rezeq-7/"
+            target="_blank"
+        >
+
+            <small>
+                Research Portal
+            </small>
+
+            <strong>
+                KU Research Portal ↗
+            </strong>
+
+        </a>
+
+
+        <a
+            class="profile-link"
+            href="https://www.researchgate.net/profile/Mohd-Rezeq"
+            target="_blank"
+        >
+
+            <small>
+                Academic Network
+            </small>
+
+            <strong>
+                ResearchGate ↗
+            </strong>
+
+        </a>
+
+
+        <a
+            class="profile-link"
+            href="https://scholar.google.com/"
+            target="_blank"
+        >
+
+            <small>
+                Citations
+            </small>
+
+            <strong>
+                Google Scholar ↗
+            </strong>
+
+        </a>
+
+
+        <a
+            class="profile-link"
+            href="https://www.scopus.com/"
+            target="_blank"
+        >
+
+            <small>
+                Research Database
+            </small>
+
+            <strong>
+                Scopus ↗
+            </strong>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact">
+
+    <div class="section-number">
+        09 — Contact
+    </div>
+
+    <h2>
+        Science.<br>
+        Innovation.<br>
+        Impact.
+    </h2>
+
+    <p>
+        For academic collaboration, research opportunities,
+        scientific enquiries and professional engagement,
+        please refer to the official Khalifa University profile.
+    </p>
+
+    <a
+        href="https://www.ku.ac.ae/college-people/mohammad-rezeq"
+        target="_blank"
+        class="contact-button"
+    >
+        Official KU Profile ↗
+    </a>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <span>
+        © 2026 Dr. Moh'd Rezeq
+    </span>
+
+    <span>
+        Physics · Nanotechnology · Innovation
+    </span>
+
+</footer>
+
+
+</body>
+</html>
